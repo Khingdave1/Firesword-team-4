@@ -704,7 +704,7 @@ div.parent{
     font-size: 0.7rem;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
     dl, ol, ul {
         margin-bottom: 0;
     }

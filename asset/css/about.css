@@ -1,0 +1,222 @@
+.section_title {} .section_subtitle {
+    margin-bottom: 7px;
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color:#aaaaaa;
+    border-left: 3px solid #bfa67a;
+    font-size: 700;
+    margin-top: 90px;
+    background-color: #0A2463;
+    background-position: 0vmax;
+}
+
+/*.about-box {
+    -webkit-box-shadow: 0 0 0 10px #000000 inset;
+    box-shadow: 0 0 0 10px #000000 inset;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    display: block;
+    
+}*/
+
+
+/*.box-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 3;
+    transform: translateY(30px) translateX(-30px);
+    -webkit-transform:translateY(30px) translateX(-30px);
+}*/
+
+.about-box .videopopup img{
+    transform: translateY(30px) translateX(-30px);
+    -webkit-transform:translateY(30px) translateX(-30px);
+    width: 100%;
+    z-index: 1;
+}
+
+.sonar-wrapper {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.sonar-emitter {
+    position: relative;
+    margin: 0px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 200%;
+    background-color: #D8315B;
+    text-align: center;
+}
+
+.sonar-emitter i {
+    z-index: 10;
+    font-size: 20px;
+    color: white;
+    margin-left: 4px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.sonar-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 9999px;
+    background-color: #FFB6C1;
+    opacity:0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.sonar-wave {
+    animation: sonarWave 2s linear infinite;
+}
+
+@keyframes sonarWave {
+    from{
+        opacity:0.4;
+    }
+    to{
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+.btn-color-background {
+    -moz-user-select: none;
+    background-image: -webkit-linear-gradient(145deg,#D8315B 0%,#D8315B 0%,#ec88c3e0
+    100%);
+    border: 1px solid #bfa67a;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 12px 48px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    Font-size: 25px;
+}
+
+.btn-color-background:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.btn-color-backgrounds {
+    -moz-user-select: none;
+    background-image: -webkit-linear-gradient(145deg,#D8315B 0%,#D8315B 0%,#ec88c3e0
+    100%);
+    border: 1px solid #bfa67a;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 12px 48px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.btn-color-backgrounds:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.about-item {
+    background-color: #FFB6C1;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-bottom: 60px;
+    position: absolute;
+}
+
+.home-button {
+    margin-top: 50px;
+    
+
+}
+
+.about {
+    
+    padding-left: 80px;
+    background-color: #0A2463;
+}
+
+.play-btn {
+    width: 50px;
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+    
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-6:hover .play-btn {
+    opacity: 1;
+}
+
+.modal-content {
+    background: transparent !important;
+    border: none !important;
+}
+
+.part-2 {
+    width: 50px;
+    float: left;
+    position: relative;
+    top: -100px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+@media only screen and (max-width: 768px) {
+    .about-item {
+        margin-top: 320px;
+    }
+
+   .footer {
+       margin-top: 800px;
+       margin-bottom: 0;
+   }
+
+}
+
+

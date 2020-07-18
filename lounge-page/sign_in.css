@@ -15,14 +15,14 @@ form {
     max-height: 100%; border: 1px solid #0A2463;
 }
 
-p{margin-left:130px; margin-top:10px; font-size:14px}
+p{color:#0A2463; text-align:center;  font-size:14px}
 
 @media only screen and (max-width: 600px){
 	form{
 		width: 90%; padding;auto;
 	}
 	
-	p{margin-left: 25px;}
+	
 
 }
 

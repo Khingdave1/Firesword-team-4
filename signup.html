@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!--Bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/signup.css">
+    <!--Animate-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e2052a1ca7.js" crossorigin="anonymous"></script>
+    <title>Lounge (Non-profit_website)</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="nav">
+        <!-- nav-center -->
+        <div class="nav-center">
+            <!-- nav-header -->
+            <div class="nav-header">
+                <div class="logo-container">
+                    <img src="/asset/imgs/Group 2.svg" alt="logo" class="logo">
+                    <img src="/asset/imgs/LOUNGE.svg" alt="logo-text" class="logo-text">
+                </div>
+                <!-- nav-toggle -->
+                <button class="nav-toggle">
+                    <span class=" bars">
+                        <i class="fas fa-bars"></i> 
+                    </span>
+                        <span class="times">
+                        <i class="fas fa-times"></i>  
+                    </span>
+                </button>
+            </div>
+            <!-- links-container -->
+            <div class="links-container">
+                <ul class="links">
+                    <li>
+                        <a href="index.html" class="link-item">Home</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="link-item">Organization profile</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="link-item">Suggestion</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="link-item">Donation</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="link-item">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="link-item" class="upper">FAQs</a>
+                    </li>
+                    <li class="search-egine">
+                        <!-- input field -->
+                        <button class="search" type="button"><i class="fas fa-search"></i></button>
+                    </li>
+                    <li class="button-container">
+                       <a href="#"> <button type="button" class="btn upper">sign up</button></a>
+                       <a href="./lounge-page-sign_in/sign_in.html"> <button type="button" class="btn upper"> sign in</button></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section id="signup"  class="mb-5 ">
+        <div class="container-fluid form-control myform">
+            <form  >
+                <div class="text-center mb-5">
+                    <img src="./asset/imgs/signup.png" alt="">
+                </div>
+                
+                <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputFullName" class=" animate__animated animate__zoomIn animate__delay-1s animate__faster	500ms">Full Name</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-addon"><i class="fa fa-user ml-3 mt-2"></i></span>
+                        <input type="text" class="form-control" id="inputFullName" placeholder="Full Name" name="name" required >
+                    </div>
+                </div> 
+                
+                <div class="form-group col-md-6">
+                    <label for="inputPassword" class="animate__animated animate__zoomIn animate__delay-1s animate__faster	500ms">Password</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-addon"><i class="fa fa-lock ml-3 mt-2"></i></span>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password" required>
+                    </div>
+                    
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail" class=" animate__animated animate__zoomIn animate__delay-1s animate__faster	500ms">Email Address</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o ml-3 mt-2"></i></span>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" name="email" required>    
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputConfirmPassword" class="animate__animated animate__zoomIn animate__delay-1s animate__faster	500ms">Confirm Password</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-addon"><i class="fa fa-lock ml-3 mt-2"></i></span>
+                        <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Confirm Password" name="confirmpassword" required>
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPhoneNumber" class=" animate__animated animate__zoomIn animate__delay-1s animate__faster	500ms">Phone Number</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-addon"><i class="fa fa-phone ml-3 mt-2 "></i></span>
+                        <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Phone Number" name="phone" required>
+                    </div>  
+                </div>
+                <div class="form-group col-md-4">
+                    <div class>
+                        <button type="submit" id="signup-btn" class="btn btn-lg btn-block mt-4  animate__animated animate__infinite animate__pulse animate__delay-2s">Sign Up</button></a>
+                        <h6 class="text-center">Already a member?<a href="./lounge-page-sign_in/sign_in.html">Sign In</a> </h6>
+                    </div>
+                </div>
+            </div>           
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="logo-footer">
+            <div class="circle">
+                <img src="./asset/imgs/Group 2.svg" alt="logo" class="logo-bold">
+            </div>
+            <h2>lounge</h2>
+        </div>
+        <div class="footer-center">
+            <!-- social media -->
+            <ul class="social-media">
+                <li>
+                    <a href="#">
+                        <img src="/asset/imgs/Vector1.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/asset/imgs/Vector2.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/asset/imgs/Vector3.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <!-- links -->
+            <ul class="footer-nav">
+                <li>
+                    <a href="#home" class="link-item">HOME</a>
+                </li>
+                <li>
+                    <a href="#home" class="link-item">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#home" class="link-item">CONTACT US</a>
+                </li>
+                <li>
+                    <a href="#home" class="link-item">DONATIONS</a>
+                </li>
+                <li>
+                    <a href="#home" class="link-item" class="upper">FAQs</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-header">
+            <div class="footer-bar">
+                <div class="sec-one">
+                    <a href="#">Accessibility</a> | <a href="#">Privacy Policy</a> | <a href="#"> Freedom of Information
+                        Act</a>
+                </div>
+                <div class="sec-two">
+                    <p>&copy; LOUNGE <span class="date"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
